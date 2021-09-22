@@ -41,12 +41,12 @@ const questions = [
 {
     type: "input",
     message: "Enter contributing information: ",
-    name: "contribute"
+    name: "contributing"
 
 }, {
     type: "input",
     message: "How will you run tests?",
-    name: "tests",
+    name: "test",
     defualt: "npm test will run the tests"
 }, {
     type: "input",
