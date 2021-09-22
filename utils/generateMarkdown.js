@@ -40,13 +40,13 @@ function generateMarkdown(data) {
   * [Installation](#installation)
 
   * [Usage](#usage)
-  * ${renderLicenseLink(data.license)}
+ ${renderLicenseLink(data.license)}
   * [Contributing](#contributing)
-  * 
+   
   * [Tests](#tests)
-  * 
+   
   * [Questions](#questions)
-  * 
+   
   
   ## Installation 
 
@@ -60,19 +60,19 @@ function generateMarkdown(data) {
 
   ${renderLicenseSection(data.license)}
 
-  ## License 
-
-  This project is license under ${data.license}
-
   ## Contributing 
 
+\`\`\`
   ${data.contributing}
+\`\`\`
 
   ## Tests
 
   To run tests, run the following command:
 
+\`\`\`
   ${data.test}
+\`\`\`
 
   ## Questions
 
