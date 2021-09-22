@@ -1,14 +1,15 @@
 // TODO: Include packages needed for this application
-const generate = require('');
+const path = require('path');
 const inquirer = require('inquirer');
 const fs = require ('fs');
+const generateMarkdown = require ('./utils/generateMarkdown')
 // TODO: Create an array of questions for user input
 const questions = () => {
     return inquirer.prompt([
-    {
-    type: "input",
-    message: "Enter your Github username: ",
-    name: "username"
+{
+    type: 'input',
+    name: 'github',
+    message: 'What is your GitHub username?',
 },
 {
     type: "input",
@@ -22,19 +23,21 @@ const questions = () => {
 },
 {
     type: "input",
-    message: "Enter the installation process: ",
-    name: "installation"
+    message: "How do install the dependencies? ",
+    name: "installation",
+    default: "npm i will install dependencies"
 },
 {
     type: "input",
-    message: "Enter the usage of the project: ",
+    message: "What information about the repo does the user need?",
     name: "usage"
 
 },
 {
-    type: "input",
-    message: "Enter licenses used for the project: ",
-    name: "licenses"
+    type: "list",
+    message: "Which license should the project have:",
+    name: "licenses",
+    choices: ['BSD 3', 'APACHE 2.0', 'GPL 3.0', 'MIT', 'None']
 },
 {
     type: "input",
