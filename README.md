@@ -1,9 +1,9 @@
-# sample
+# Fitness Tracker
   ![Github License](https://img.shields.io/badge/license-undefined-blue.svg)
     
   ## Description 
 
-  sample
+  With starter create an app that uses mongoDB that tracks your workouts then deploy it to heroku.
 
   ## Table of Contents
 
@@ -24,11 +24,11 @@
 
   To install necessary dependacies, run the following command:
  
-  sample
+  npm i will install dependencies
 
   ## Usage 
 
-  sample
+  
 
   ## License
     
@@ -37,7 +37,7 @@
   ## Contributing 
 
 ```
-  sample
+  
 ```
 
   ## Tests
@@ -45,14 +45,9 @@
   To run tests, run the following command:
 
 ```
-  sample
+  
 ```
 
   ## Questions
 
-  If you need to contact me use sample. You can visit my profile at https://github.com/sample.
-
-
-![Walkthrough](img/walkthrough.webm)
-
-![Screenshot of Questions](img/screenshot.png)
+  If you need to contact me use . You can visit my profile at https://github.com/Cameron-Blake.
