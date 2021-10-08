@@ -1,9 +1,9 @@
-# Fitness Tracker
+# ReadMe Generator
   ![Github License](https://img.shields.io/badge/license-undefined-blue.svg)
     
   ## Description 
 
-  With starter create an app that uses mongoDB that tracks your workouts then deploy it to heroku.
+  Using node.js create a terminal based application that you can put informatino into to create a professional readme file.
 
   ## Table of Contents
 
