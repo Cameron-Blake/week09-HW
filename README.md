@@ -3,7 +3,7 @@
     
   ## Description 
 
-  Using node.js create a terminal based application that you can put informatino into to create a professional readme file.
+  Using node.js create a terminal based application that you can put information into to create a professional readme file.
 
   ## Table of Contents
 
